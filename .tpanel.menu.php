@@ -1,0 +1,82 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сотрудничество", 
+		"/suppliers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Документация", 
+		"/docs/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"/action/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Полезное", 
+		"/useful/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Подбор радиатора", 
+		"/selection/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+
+	Array(
+		"Доставка", 
+		"/delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"/payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Скидки", 
+		"/action/skidki_na_radiatory_rifar/", 
+		Array(), 
+		Array("class"=>"btn-discount"), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,74 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании",
+		"/about/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Сотрудничество",
+		"/suppliers/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Документация",
+		"/docs/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Новости",
+		"/news/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Акции",
+		"/action/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Доставка",
+		"/delivery/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Оплата",
+		"/payment/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Контакты",
+		"/contacts/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Возврат, обмен",
+		"/vozvrat-obmen/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Политика конфиденциальности",
+		"/privacy_policy/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>
