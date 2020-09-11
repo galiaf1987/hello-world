@@ -2,7 +2,7 @@
 header("Content-Type: text/xml; charset=windows-1251");
 echo "<"."?xml version=\"1.0\" encoding=\"windows-1251\"?".">"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2020-09-11 22:46">
+<yml_catalog date="2020-09-11 23:51">
 <shop>
 <name>Otoplenie Store</name>
 <company>Otoplenie Store</company>

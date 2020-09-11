@@ -12,6 +12,7 @@
 *.png
 *.pdf
 *.gif
+*.csv
 *.xml
 /*.sql
 Thumbs.db
@@ -35,4 +36,4 @@ Thumbs.db
 /bitrix/cache/
 /bitrix/backup/
 /bitrix/admin/
-/bitrix/catalog_export/
+/bitrix/managed_cache/

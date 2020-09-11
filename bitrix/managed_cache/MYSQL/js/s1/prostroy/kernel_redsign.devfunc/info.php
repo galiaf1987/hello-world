@@ -1,1 +1,1 @@
-<? $arFilesInfo = array( 'FILES' => array("/bitrix/js/redsign.devfunc/script.js" => "15975741891726",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/js/redsign.devfunc/script.js" => "15998487821726",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

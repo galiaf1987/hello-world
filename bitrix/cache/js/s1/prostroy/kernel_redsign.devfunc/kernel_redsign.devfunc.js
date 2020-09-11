@@ -1,6 +1,6 @@
-; /* /bitrix/js/redsign.devfunc/script.js?15975741891726*/
+; /* /bitrix/js/redsign.devfunc/script.js?15998487821726*/
 
-; /* Start:"a:4:{s:4:"full";s:51:"/bitrix/js/redsign.devfunc/script.js?15975741891726";s:6:"source";s:36:"/bitrix/js/redsign.devfunc/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+; /* Start:"a:4:{s:4:"full";s:51:"/bitrix/js/redsign.devfunc/script.js?15998487821726";s:6:"source";s:36:"/bitrix/js/redsign.devfunc/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
 /************************************
 *
 * Universal JavaScript Extensions
