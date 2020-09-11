@@ -1,0 +1,2 @@
+<?
+$APPLICATION->SetPageProperty("description", "");

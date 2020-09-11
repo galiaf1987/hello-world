@@ -1,0 +1,57 @@
+Options -Indexes
+ErrorDocument 404 /404.php
+
+<IfModule mod_php5.c>
+  php_flag session.use_trans_sid off
+  php_value display_errors 1
+  php_value mbstring.internal_encoding UTF-8
+  php_value mbstring.func_overload 2
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+
+	RewriteCond %{REQUEST_METHOD} GET
+	RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,L,NE]
+
+	RewriteCond %{REQUEST_METHOD} GET
+	RewriteCond %{HTTP_HOST} ^(rifar.click|rifar.website|rifarmoscow.com|rifarmoscow.ru|rifarmoscow.online|rifar.store|xn--80apxcs.xn--80aswg|xn--80apxcs.xn--80asehdb|xn--80aafwllomcm2a.com|xn--80aafwllomcm2a.xn--p1ai|xn--24-6kcaj8appsqco8a.xn--p1ai|xn--80aafwllomcm2a.xn--p1acf) [NC]
+	RewriteRule ^(.*)$ http://xn--80apxcs.xn--80adxhks/$1 [R=301,L,NE]
+
+  RewriteBase /
+  RewriteCond %{HTTP:X-HTTPS} !1
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+	# /index.php to /
+	RewriteCond %{REQUEST_METHOD} GET
+	RewriteCond %{REQUEST_URI} /index\.(php|html)$
+	RewriteRule ^(.*/)?index\.(php|html) /$1 [R=301,L]
+
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
+  # редиректим урлы с кириллическими символами на латиницу
+  RedirectMatch 301 ^/catalog/truby_i_fitingi/kollektory/(.*) https://xn--80apxcs.xn--80adxhks/catalog/kollektory/$1
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+  ExpiresByType image/png "access plus 3 day"
+  ExpiresByType text/css "access plus 3 day"
+  ExpiresByType application/javascript "access plus 3 day"
+</IfModule>
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

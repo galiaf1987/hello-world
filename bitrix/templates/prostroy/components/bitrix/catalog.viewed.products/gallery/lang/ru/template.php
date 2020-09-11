@@ -1,0 +1,1 @@
+<?include __DIR__.'/../../../../catalog.section/gallery/lang/ru/template.php';?>

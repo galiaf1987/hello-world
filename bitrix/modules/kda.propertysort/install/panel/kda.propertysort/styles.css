@@ -1,0 +1,117 @@
+.bx-core-adm-admin-dialog .bx-core-adm-dialog-content
+{
+	padding: 0px;
+}
+
+#bx-admin-prefix .adm-input-file-ex-wrap
+{
+	margin: 0px;
+}
+
+.property-sort-item
+{
+	padding: 10px 80px 10px 10px;
+	background-color: #f5f9f9;
+	position: relative;
+	width: -moz-calc(100% - 90px);
+	width: -webkit-calc(100% - 90px);
+	width: -o-calc(100% - 90px);
+	width: -ms-calc(100% - 90px);
+	width: calc(100% - 90px);
+}
+
+.property-sort-item .inner
+{
+	max-height: 80px;
+	overflow: hidden;
+}
+
+.property-sort-item:nth-child(even)
+{
+	background-color: #ffffff;
+}
+
+.property-sort-item:hover
+{
+	background-color: #e0e9ec;
+}
+
+.property-sort-list
+{
+	border: 1px solid #ced7d8;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+}
+
+.property-sort-item .arrow_up,
+.property-sort-item .arrow_down,
+.property-sort-item .arrow_up:hover,
+.property-sort-item .arrow_down:hover
+{
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 55px;
+	top: 50%;
+	margin-top: -8px;
+	background: url(images/prop_arrows.png) 0px 0px no-repeat;
+}
+
+.property-sort-item .arrow_up,
+.property-sort-item .arrow_up:hover
+{
+	right: 20px;
+	background-position: -16px 0px;
+}
+
+.property-sort-item .arrow_down:hover
+{
+	background-position: 0px -16px;
+}
+
+.property-sort-item .arrow_up:hover
+{
+	background-position: -16px -16px;
+}
+
+.property-sort-item:first-child .arrow_up
+{
+	display: none;
+}
+
+.property-sort-item:last-child .arrow_down
+{
+	display: none;
+}
+
+.property-sort-item.draggable
+{
+	position: absolute;
+}
+
+.property-sort-item-empty
+{
+	position: absolute;
+	border: 2px dashed #666666;
+}
+
+.property-sort-item.property-sort-item-empty
+{
+	position: relative;
+}
+
+.property-sort-btn
+{
+	text-align: right;
+}
+
+.property-sort-icon
+{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(images/sort_icon.png) 0px 0px no-repeat;
+	vertical-align: middle;
+	margin: 0px 0px 0px 10px;
+}

@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS b_dx_file_dedup
+(
+	`ID` INT NOT NULL AUTO_INCREMENT,
+	`FILE_NAME` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+	PRIMARY KEY (ID)
+);

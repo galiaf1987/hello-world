@@ -1,0 +1,41 @@
+.header .callback a {
+	border: none;
+}
+.header .callback a.recall {
+	border: 1px solid #e5e5e5;
+}
+#title h1 {
+	float: left;
+	margin: 5px 0px 20px 0px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#mightyCallC2C-d452de4e-dcd7-4b1c-8e8f-1bda1d006e55 {
+	margin-bottom: 40px;
+}
+
+.around-cert{
+	margin-left:252px;
+	text-align: center;
+}
+@media screen and (max-width:1010px){
+	body.adaptive .around-cert{
+		min-height:0px;
+		margin-top:5px;
+		margin-left:0px;
+	}
+}
+.fancybox-type-image.fancybox-opened .fancybox-outer {
+	padding-top: 0;
+}
+
+
+@media screen and (max-width:876px){
+	.otherxars tr.3cols td {
+		display: block;
+	}
+}
+
+.elementdetail .soloprice .line {
+	height: auto;
+}

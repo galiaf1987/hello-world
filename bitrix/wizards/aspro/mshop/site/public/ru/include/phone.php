@@ -1,0 +1,1 @@
+<a rel="nofollow" href="tel:#SITE_PHONE2#">#SITE_PHONE#</a>

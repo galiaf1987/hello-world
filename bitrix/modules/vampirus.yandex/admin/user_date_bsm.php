@@ -1,0 +1,1 @@
+<?define("vampirus_yandex_TEMPORARY_CACHE", "J2BUVnsxAQJsAn83BDcFfg0n");?>

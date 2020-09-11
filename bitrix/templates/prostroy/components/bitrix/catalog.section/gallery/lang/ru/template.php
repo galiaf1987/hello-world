@@ -1,0 +1,1 @@
+<?include __DIR__.'/../../../light/lang/ru/template.php';?>

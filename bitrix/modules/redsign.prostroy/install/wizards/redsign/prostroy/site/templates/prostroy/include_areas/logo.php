@@ -1,0 +1,1 @@
+<img src="/bitrix/templates/prostroy/img/logo.png" title="OptPro" alt="OptPro" />

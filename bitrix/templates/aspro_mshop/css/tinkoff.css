@@ -1,0 +1,145 @@
+.tinkoff {
+  overflow: hidden;
+}
+
+.tinkoff > div {
+  float: left;
+}
+
+.tinkoff-description,
+.tinkoff-form {
+	float: left;
+}
+
+.tinkoff-description {
+  color: #74818d;
+}
+
+.tinkoff-description .icons div {
+  margin-right: 12px;
+}
+
+.tinkoff-description .info {
+  margin: 1.75em 0;
+  line-height: 1.45em;
+}
+
+.tinkoff-description .tcs-logo {
+  margin-top: 27px;
+}
+
+.tinkoff-description {
+  max-width: 280px;
+  margin-right: 20px;
+}
+
+.tinkoff-form {
+  min-width: 360px;
+}
+
+.tinkoff .tinkoff-description .under-visa {
+  display: inline-block;
+  width: 58px;
+  height: 25px;
+  padding-bottom: 10px;
+  background: url(../images/sprite.png) no-repeat 0 -68px;
+}
+
+.tinkoff .tinkoff-description .under-master {
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    padding-bottom: 10px;
+    background: url(../images/sprite.png) no-repeat -136px -69px;
+}
+
+.tinkoff .tinkoff-description .under-miraccept {
+    display: inline-block;
+    width: 69px;
+    height: 30px;
+    padding-bottom: 10px;
+    background: url(../images/sprite.png) no-repeat 0 -222px;
+}
+
+.tinkoff .tinkoff-description .under-pci {
+    display: inline-block;
+    width: 59px;
+    height: 24px;
+    padding-bottom: 10px;
+    background: url(../images/sprite.png) no-repeat -69px -69px;
+}
+
+.tinkoff .fin-service {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tinkoff .fin-service-image {
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tinkoff .fin-service-image_diff {
+  margin-top: -2px;
+}
+
+.tinkoff .fin-service .visa {
+  width: 47px;
+  height: 15px;
+  background: url(../images/sprite.png) no-repeat -99px -39px;
+}
+
+.tinkoff .fin-service .master-card {
+  width: 40px;
+  height: 23px;
+  background: url(../images/sprite.png) no-repeat 0 -34px;
+}
+
+.tinkoff .fin-service .maestro {
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+  background: url(../images/sprite.png) no-repeat -152px -33px;
+}
+
+.tinkoff .fin-service .mir {
+  width: 68px;
+  height: 22px;
+  background: url(../images/sprite.png) no-repeat 0 -200px;
+}
+
+.tinkoff .tinkoff-limit-header {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.tinkoff .tinkoff-limit-payment {
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.tinkoff .tinkoff-limit-transaction {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.tinkoff .tinkoff-limit-transaction-name {
+  color: #999999;
+}
+
+.tinkoff .tinkoff-limit-transaction-value {
+  float: right;
+}
+
+.tinkoff .tinkoff-limit-delimeter {
+  border-top: 1px solid #eeeeee;
+}
+
+.tinkoff .tinkoff-limit-transaction {
+  margin: 20px 0;
+  font-size: 14px;
+}

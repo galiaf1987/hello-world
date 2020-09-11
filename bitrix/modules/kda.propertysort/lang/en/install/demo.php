@@ -1,0 +1,4 @@
+<?
+$MESS['KDA_PROPERTYSORT_DEMO_MESSAGE_DAYS_REMAIN'] = '<span class="required">Module <b>Sort multiple properties</b> will run in demo mode</span>.<br/>Before the expiration of the demo mode in less than <span style="color: red; font-weight: bold">#DAYS#</span> days.<br/>At the end of the demo mode, the module will stop functioning.<br/><a href="http://marketplace.1c-bitrix.ru/tobasket.php?ID=kda.propertysort">Buy module</a>';
+$MESS['KDA_PROPERTYSORT_DEMO_MESSAGE_EXPIRED'] = '<span class="required">Demo mode of module <b>Sort multiple properties</b> expired.</span><br/><a href="http://marketplace.1c-bitrix.ru/tobasket.php?ID=kda.propertysort">Buy module</a> to resume his work.';
+?>
