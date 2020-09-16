@@ -271,235 +271,225 @@ endif;
         ?></div><?
     endif;
     ?>
-    <div id="header" class="header"><?
-        ?>
-        <div class="centering"><?
-            ?>
-            <div class="centeringin clearfix"><?
-                ?>
-                <div class="logo column1"><?
-                    ?>
-                    <div class="column1inner text-center"><?
-                        ?><a class="title" href="<?= SITE_DIR ?>"><?
+
+
+    <div id="header" class="header">
+        <div class="centering">
+            <div class="centeringin clearfix">
+                <div class="logo column1">
+                    <div class="column1inner text-center">
+                        <a class="title" href="<?= SITE_DIR ?>"><?
                             $APPLICATION->IncludeFile(
                                 SITE_TEMPLATE_PATH . "/include_areas/logo.php",
                                 array(),
                                 array("MODE" => "html")
                             );
-                            ?></a><?
-                        ?>
-                        <noindex><a target="_blank" href="https://rifar.ru/buy/#bx_40480796_755"><?
+                            ?>
+                        </a>
+                        <noindex><a target="_blank" href="https://rifar.ru/"><?
                                 $APPLICATION->IncludeFile(
                                     SITE_TEMPLATE_PATH . "/include_areas/rifar.php",
                                     array(),
                                     array("MODE" => "html")
                                 );
-                                ?></a></noindex><?
-                        ?></div><?
-                    ?></div><?
-                ?>
-                <div class="phone column1 nowrap"><?
-                    ?>
-                    <div class="column1inner text-center"><?
-                        ?><i class="icon pngicons mobile_hide"></i><?
-                        $APPLICATION->IncludeFile(
-                            SITE_TEMPLATE_PATH . "/include_areas/header_phone.php",
-                            array(),
-                            array("MODE" => "html")
-                        );
-                        ?><br/><?
-                        ?><i class="icon pngicons mobile_hide"></i><?
-                        ?><a href="tel:+7(495)231-89-00" style="font-size: 15pt;color:#000;"><b>+7 (495)
-                                231-89-00</b></a><?
-                        ?><a class="fancyajax fancybox.ajax recall" style="display:block" href="/recall/"
-                             title="Заказать звонок">Заказать звонок</a><?
-                        /*?><a class="fancyajax fancybox.ajax recall" href="/recall/" title="Обратный звонок"><?/*<i class="icon pngicons"></i>* /?>Обратный звонок</a><?*/
-                        ?></div><?
-                    ?></div><?
+                                ?></a></noindex>
+                    </div>
+                </div>
+                <div class="phone column1 nowrap">
+                    <div class="column1inner text-center">
+                        <div class="phone-conteiner">
+                            <i class="icon pngicons mobile_hide"></i><?
+                            $APPLICATION->IncludeFile(
+                                SITE_TEMPLATE_PATH . "/include_areas/header_phone.php",
+                                array(),
+                                array("MODE" => "html")
+                            );
+                            ?>
+                        </div>
+                        <div class="phone-conteiner">
+                            <i class="icon pngicons mobile_hide"></i>
+                            <a href="tel:+7(495)231-89-00" style="font-size: 15pt;color:#000;">
+                                <b>+7 (495) 231-89-00</b>
+                            </a>
+                        </div>
+                        <div class="phone-conteiner">
+                            <a class="fancyajax fancybox.ajax recall" style="display:block" href="/recall/"
+                               title="Заказать звонок">Заказать звонок</a><?
+                            /*?><a class="fancyajax fancybox.ajax recall" href="/recall/" title="Обратный звонок"><?/*<i class="icon pngicons"></i>* /?>Обратный звонок</a><?*/
+                        ?>
+                        </div>
+                    </div>
+                </div><?
                 if (!$IS_PRINT):
                     ?>
-                    <div class="favorite column1 nowrap"><?
-                    ?>
-                    <div class="column1inner text-center"><?
-                    ?><a
-                        href="https://yandex.ru/maps/20728/korolev/?ll=37.913555%2C55.905552&mode=search&oid=243693795803&ol=biz&z=11"
-                        target="_blank">Москва г. Мытищи, <br> ул. 3-я Крестьянская, стр. 23. <br> ОДЦ «Айсберг», Офис
-                    №1.</a><?
-                    /*$APPLICATION->IncludeComponent(
-                        "redsign:favorite.list",
-                        "inheader",
-                        array(
-                            "CACHE_TYPE" => "N",
-                            "CACHE_TIME" => "3600",
-                            "ACTION_VARIABLE" => "topaction",
-                            "PRODUCT_ID_VARIABLE" => "id"
-                        ),
-                        false
-                    );*/
-                    ?></div><?
-                    ?></div><?
-                    ?>
-                    <div class="callback column1 nowrap partner"><?
-                    ?>
-                    <div class="column1inner text-center"><?
-                    ?>
-                    <div style="float:left;width:70%">
-                        Обработка заказов с 9:00 до 19:00<br>
-                        Прием звонков с 9:00 до 21:00<br>
-                        <a class="email" style="color: #000000"
-                           href="mailto:info@rifarmoscow.ru"><b>info@rifarmoscow.ru</b></a>
-                    </div><?
-                    ?>
-                    <div style="float:left;width:30%">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/partner_logo.png" alt=""/>
-                    </div><?
-                    ?></div><?
-                    ?></div><?
-                    ?>
-                    <div class="basket column1 nowrap"><?
-                    ?>
+                    <div class="favorite column1 nowrap">
+                        <div class="column1inner text-center">
+                            <a href="https://yandex.ru/maps/20728/korolev/?ll=37.913555%2C55.905552&mode=search&oid=243693795803&ol=biz&z=11"
+                               target="_blank">
+                                Москва г. Мытищи, <br> ул. 3-я Крестьянская, стр. 23. <br> ОДЦ «Айсберг», Офис №1.
+                            </a><?
+                            /*$APPLICATION->IncludeComponent(
+                                "redsign:favorite.list",
+                                "inheader",
+                                array(
+                                    "CACHE_TYPE" => "N",
+                                    "CACHE_TIME" => "3600",
+                                    "ACTION_VARIABLE" => "topaction",
+                                    "PRODUCT_ID_VARIABLE" => "id"
+                                ),
+                                false
+                            );*/
+                            ?></div>
+                    </div>
+                    <div class="callback column1 nowrap partner">
+                        <div class="column1inner text-center">
+                            <div style="float:left;width:100%">
+                                Обработка заказов с 9:00 до 19:00<br>
+                                Прием звонков с 9:00 до 21:00<br>
+                                <a class="email" style="color: #000000"
+                                   href="mailto:info@rifarmoscow.ru"><b>info@rifarmoscow.ru</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket column1 nowrap">
                     <div class="column1inner"><?
-                    $APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "inheader", array(
-                        "PATH_TO_BASKET" => "/personal/cart/",
-                        "PATH_TO_ORDER" => "/personal/order/",
-                        "SHOW_DELAY" => "Y",
-                        "SHOW_NOTAVAIL" => "Y",
-                        "SHOW_SUBSCRIBE" => "Y"
-                    ),
-                        false
-                    );
-                    ?></div><?
-                    ?></div><?
+                        $APPLICATION->IncludeComponent("bitrix:sale.basket.basket.small", "inheader", array(
+                            "PATH_TO_BASKET" => "/personal/cart/",
+                            "PATH_TO_ORDER" => "/personal/order/",
+                            "SHOW_DELAY" => "Y",
+                            "SHOW_NOTAVAIL" => "Y",
+                            "SHOW_SUBSCRIBE" => "Y"
+                        ),
+                            false
+                        );
+                        ?></div>
+                    </div><?
                 endif;
-                ?></div><?
-            ?>
+                ?></div>
             <div class="centering">
-                <div style="text-align:center;margin-bottom:10px;font-style: italic;"> Мы работаем! </span>  Принимаем
+                <div style="text-align:center;margin-bottom:10px;font-style: italic;"> Мы работаем! Принимаем
                     заказы на доставку и бесконтактный самовывоз!
                 </div>
-            </div><?
-            ?></div><?
+            </div>
+        </div><?
         if (!$IS_PRINT):
             ?>
-            <div class="centering"><?
-            ?>
+            <div class="centering">
             <div class="centeringin clearfix"><?
-            $APPLICATION->IncludeComponent(
-                "bitrix:menu",
-                "catalog",
-                array(
-                    "CACHE_SELECTED_ITEMS" => "N",
-                    "ROOT_MENU_TYPE" => "catalog",
-                    "MENU_CACHE_TYPE" => "A",
-                    "MENU_CACHE_TIME" => "3600",
-                    "MENU_CACHE_USE_GROUPS" => "Y",
-                    "MENU_CACHE_GET_VARS" => array(),
-                    "MAX_LEVEL" => "1",
-                    "CHILD_MENU_TYPE" => "",
-                    "USE_EXT" => "Y",
-                    "DELAY" => "N",
-                    "ALLOW_MULTI_SELECT" => "N",
-                    "CATALOG_PATH" => "/catalog/",
-                    "MAX_ITEM" => "9",
-                    "IS_MAIN" => $IS_MAIN,
-                    "COMPONENT_TEMPLATE" => "catalog",
-                    "RSGOPRO_CATALOG_PATH" => "/catalog/",
-                    "RSGOPRO_MAX_ITEM" => "99",
-                    "RSGOPRO_IS_MAIN" => "N",
-                    "RSGOPRO_PROPCODE_ELEMENT_IN_MENU" => "",
-                    "IBLOCK_ID" => array(),
-                    "PRICE_CODE" => array(),
-                    "PRICE_VAT_INCLUDE" => "N",
-                    "OFFERS_FIELD_CODE" => array(
-                        0 => "",
-                        1 => "",
+                $APPLICATION->IncludeComponent(
+                    "bitrix:menu",
+                    "catalog",
+                    array(
+                        "CACHE_SELECTED_ITEMS" => "N",
+                        "ROOT_MENU_TYPE" => "catalog",
+                        "MENU_CACHE_TYPE" => "A",
+                        "MENU_CACHE_TIME" => "3600",
+                        "MENU_CACHE_USE_GROUPS" => "Y",
+                        "MENU_CACHE_GET_VARS" => array(),
+                        "MAX_LEVEL" => "1",
+                        "CHILD_MENU_TYPE" => "",
+                        "USE_EXT" => "Y",
+                        "DELAY" => "N",
+                        "ALLOW_MULTI_SELECT" => "N",
+                        "CATALOG_PATH" => "/catalog/",
+                        "MAX_ITEM" => "9",
+                        "IS_MAIN" => $IS_MAIN,
+                        "COMPONENT_TEMPLATE" => "catalog",
+                        "RSGOPRO_CATALOG_PATH" => "/catalog/",
+                        "RSGOPRO_MAX_ITEM" => "99",
+                        "RSGOPRO_IS_MAIN" => "N",
+                        "RSGOPRO_PROPCODE_ELEMENT_IN_MENU" => "",
+                        "IBLOCK_ID" => array(),
+                        "PRICE_CODE" => array(),
+                        "PRICE_VAT_INCLUDE" => "N",
+                        "OFFERS_FIELD_CODE" => array(
+                            0 => "",
+                            1 => "",
+                        ),
+                        "OFFERS_PROPERTY_CODE" => array(
+                            0 => "",
+                            1 => "",
+                        ),
+                        "CONVERT_CURRENCY" => "N",
+                        "USE_PRODUCT_QUANTITY" => "N",
+                        "PRODUCT_QUANTITY_VARIABLE" => "",
+                        "COMPOSITE_FRAME_MODE" => "A",
+                        "COMPOSITE_FRAME_TYPE" => "AUTO"
                     ),
-                    "OFFERS_PROPERTY_CODE" => array(
-                        0 => "",
-                        1 => "",
+                    false
+                );
+                ?><?
+                $APPLICATION->IncludeComponent(
+                    "bitrix:search.title",
+                    "inheader",
+                    array(
+                        "NUM_CATEGORIES" => "1",
+                        "TOP_COUNT" => "5",
+                        "ORDER" => "date",
+                        "USE_LANGUAGE_GUESS" => "N",
+                        "CHECK_DATES" => "N",
+                        "SHOW_OTHERS" => "N",
+                        "PAGE" => "/search/",
+                        "CATEGORY_0_TITLE" => "",
+                        "CATEGORY_0" => array(
+                            0 => "no",
+                        ),
+                        "SHOW_INPUT" => "Y",
+                        "INPUT_ID" => "title-search-input",
+                        "CONTAINER_ID" => "title-search",
+                        "IBLOCK_ID" => array(
+                            0 => "1",
+                        ),
+                        "PRICE_CODE" => array(
+                            0 => "BASE",
+                            1 => "WHOLE",
+                            2 => "RETAIL",
+                            3 => "EXTPRICE",
+                            4 => "EXTPRICE2",
+                        ),
+                        "PRICE_VAT_INCLUDE" => "N",
+                        "OFFERS_FIELD_CODE" => array(
+                            0 => "NAME",
+                            1 => "PREVIEW_PICTURE",
+                            2 => "",
+                        ),
+                        "OFFERS_PROPERTY_CODE" => array(
+                            0 => "CML2_LINK",
+                            1 => "",
+                        ),
+                        "CONVERT_CURRENCY" => "N",
+                        "USE_PRODUCT_QUANTITY" => "N",
+                        "PRODUCT_QUANTITY_VARIABLE" => "quan"
                     ),
-                    "CONVERT_CURRENCY" => "N",
-                    "USE_PRODUCT_QUANTITY" => "N",
-                    "PRODUCT_QUANTITY_VARIABLE" => "",
-                    "COMPOSITE_FRAME_MODE" => "A",
-                    "COMPOSITE_FRAME_TYPE" => "AUTO"
-                ),
-                false
-            );
-            ?><?
-            $APPLICATION->IncludeComponent(
-                "bitrix:search.title",
-                "inheader",
-                array(
-                    "NUM_CATEGORIES" => "1",
-                    "TOP_COUNT" => "5",
-                    "ORDER" => "date",
-                    "USE_LANGUAGE_GUESS" => "N",
-                    "CHECK_DATES" => "N",
-                    "SHOW_OTHERS" => "N",
-                    "PAGE" => "/search/",
-                    "CATEGORY_0_TITLE" => "",
-                    "CATEGORY_0" => array(
-                        0 => "no",
-                    ),
-                    "SHOW_INPUT" => "Y",
-                    "INPUT_ID" => "title-search-input",
-                    "CONTAINER_ID" => "title-search",
-                    "IBLOCK_ID" => array(
-                        0 => "1",
-                    ),
-                    "PRICE_CODE" => array(
-                        0 => "BASE",
-                        1 => "WHOLE",
-                        2 => "RETAIL",
-                        3 => "EXTPRICE",
-                        4 => "EXTPRICE2",
-                    ),
-                    "PRICE_VAT_INCLUDE" => "N",
-                    "OFFERS_FIELD_CODE" => array(
-                        0 => "NAME",
-                        1 => "PREVIEW_PICTURE",
-                        2 => "",
-                    ),
-                    "OFFERS_PROPERTY_CODE" => array(
-                        0 => "CML2_LINK",
-                        1 => "",
-                    ),
-                    "CONVERT_CURRENCY" => "N",
-                    "USE_PRODUCT_QUANTITY" => "N",
-                    "PRODUCT_QUANTITY_VARIABLE" => "quan"
-                ),
-                false
-            );
-            ?></div><?
-            ?></div><?
+                    false
+                );
+                ?></div>
+            </div><?
         endif;
         ?></div><?
     if ($IS_MAIN == 'N') {
         ?>
-        <div id="title" class="title"><?
-        ?>
-        <div class="centering"><?
-        ?>
-        <div class="centeringin clearfix"><?
-        $APPLICATION->IncludeComponent(
-            "bitrix:breadcrumb",
-            "gopro",
-            array(
-                "START_FROM" => "0",
-                "PATH" => "",
-                "SITE_ID" => "-"
-            ),
-            false
-        );
-        if (!$IS_SELECTION):
-            ?><h1<?/* class="pagetitle"*/
-            ?>><? $APPLICATION->ShowTitle(false) ?></h1><?
-            $APPLICATION->ShowViewContent('header_h1');
-        endif;
-        ?></div><?
-        ?></div><?
-        ?></div><!-- /title --><?
+        <div id="title" class="title">
+            <div class="centering">
+                <div class="centeringin clearfix"><?
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:breadcrumb",
+                        "gopro",
+                        array(
+                            "START_FROM" => "0",
+                            "PATH" => "",
+                            "SITE_ID" => "-"
+                        ),
+                        false
+                    );
+                    if (!$IS_SELECTION):
+                        ?><h1<?/* class="pagetitle"*/
+                        ?>><? $APPLICATION->ShowTitle(false) ?></h1><?
+                        $APPLICATION->ShowViewContent('header_h1');
+                    endif;
+                    ?></div>
+            </div>
+        </div><!-- /title --><?
     }
     ?>
     <div id="content" class="content"><?
