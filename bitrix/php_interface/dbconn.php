@@ -11,8 +11,8 @@ define("MYSQL_TABLE_TYPE", "INNODB");
 define("BX_USE_MYSQLI", true);
 
 define("DELAY_DB_CONNECT", true);
-define("CACHED_b_file", 3600);
-define("CACHED_b_file_bucket_size", 10);
+define("CACHED_b_file", 0);
+define("CACHED_b_file_bucket_size", 1);
 define("CACHED_b_lang", 3600);
 define("CACHED_b_option", 3600);
 define("CACHED_b_lang_domain", 3600);
