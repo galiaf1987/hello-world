@@ -58,7 +58,9 @@ if(!defined('ERROR_404')) {
 		if(!$IS_PRINT):
 		?><div class="centering"><?
 			?><div class="centeringin line1 clearfix"><?
-				?><div class="block one"><?
+				?>
+            <div class="contaner">
+                <div class="block one"><?
 					?><div class="logo"><?
 						?><a href="<?=SITE_DIR?>"><?
 							$APPLICATION->IncludeFile(
@@ -98,7 +100,14 @@ if(!defined('ERROR_404')) {
 						?></div><?
 					?></div><?
 				?></div><?
-				?><div class="block two"><?
+				?><div class="block call_us"><?
+            $APPLICATION->IncludeFile(
+                SITE_TEMPLATE_PATH."/include_areas/footer_call_us.php",
+                Array(),
+                Array("MODE"=>"html")
+            );
+            ?></div><?
+        ?><div class="block two"><?
 				$APPLICATION->IncludeComponent(
 	"bitrix:menu",
 	"infootercatalog",
@@ -123,8 +132,8 @@ if(!defined('ERROR_404')) {
 	),
 	false
 );
-				?></div><?
-				?><div class="block three"><?
+				?></div>
+				<div class="block three"><?
 					$APPLICATION->IncludeComponent(
 						"bitrix:menu",
 						"infooter",
@@ -167,7 +176,8 @@ if(!defined('ERROR_404')) {
 					?><div style="text-align:center;"><?
 						?><iframe src="https://yandex.ru/sprav/widget/rating-badge/243693795803" width="150" height="50" frameborder="0"></iframe><?
 					?></div><?
-				?></div><?
+				?></div>
+            </div><?
 			?></div><?
 		?></div><?
 		endif;
