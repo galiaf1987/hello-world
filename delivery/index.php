@@ -171,13 +171,13 @@ $APPLICATION->SetTitle("Доставка");
     <iframe allowtransparency="true" frameborder="0" width="250" height="345" scrolling="no" style="border:1px solid #ededed" src="https://pecom.ru/ru/newcalc/"></iframe>
   </div>
   <div style="float:left;margin:10px;">
-    <iframe
-        src="https://widgets.dellin.ru/calculator?group1=disabled&group3=disabled&group11=disabled&derival_point=5000004400000000000000000&derival_to_door=on&arrival_to_door=on&disabled_calculation=off&insurance=0&package=1"
-        width="332"
-        height="390"
-        scrolling="no"
-        frameborder="0">
-    </iframe>
+      <iframe
+              src="https://widgets.dellin.ru/calculator?derival_to_door=off&arrival_to_door=on&disabled_calculation=off&insurance=0&package=1"
+              width="332"
+              height="390"
+              scrolling="no"
+              frameborder="0">
+      </iframe>
   </div>
   <div style="float:left;margin:10px;">
     <iframe id="cdek-calc" src="https://cdek-online.ru/construct_form.php?city_from=920&sender_status=other&method_from=2" scrolling="no" frameborder="0" height="365" width="300"></iframe>
