@@ -1,1 +1,1 @@
-РИФАР.МОСКВА
+<img class="header-logo" src="/upload/logo2.png" alt="Логотип">

@@ -492,13 +492,13 @@ input.btn3[type="reset"]:active{
         font-size: 0.75rem;
 }
 .header .logo a.title{
-        font-size:1.8rem;
-        font-family:'Montserrat Alternates', sans-serif;
-        margin-bottom: 10px;
-}
+	font-size:1.8rem;
+	font-family:'Montserrat Alternates', sans-serif;
+	margin-top: 10px;
+}ub
+
 .header .logo a img{
-	width:100%;
-	float:left;
+	max-width:75%;
 }
 .header .phone{
 	font-family:Opensanslight,Arial,Helvetica,sans-serif;
@@ -1226,10 +1226,28 @@ a.slide-to:hover {
 		padding-right: 10px;
 	}
 
-.header .logo a.title{
-        font-size:1rem;
-        margin-bottom: 0;
-        margin-top: 5px;
+	.header .logo a.title{
+		font-size:1rem;
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
 }
-
+.header .column1.phone .column1inner{
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+	-webkit-align-items: center;
+	height: 100%;
+}
+.header .column1.phone .column1inner div:first-child{
+	margin-bottom: 5px;
+}
+.header .column1.phone .phone-conteiner{
+	display: flex;
+	display: -webkit-flex;
 }
