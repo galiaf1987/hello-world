@@ -27,7 +27,7 @@ if(is_array($arResult['ITEMS']) && count($arResult['ITEMS'])>0)
 						?></span><?
 					?></div><?
 					?><div class="description"><?=$arItem['PREVIEW_TEXT']?></div><?
-					?><div class="price new nowrap"><?=$PRODUCT['MIN_PRICE']['PRINT_DISCOUNT_VALUE']?></div><?
+					?><div class="price new nowrap"><?=roundEx(CCurrencyRates::ConvertCurrency($PRODUCT['MIN_PRICE']['VALUE'], $PRODUCT['MIN_PRICE']['CURRENCY'], 'RUB')) . ' руб.'?></div><?
 				?></div><?
 			?></div><?
 		?></div><?
