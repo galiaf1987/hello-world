@@ -145,3 +145,11 @@
         width:unset;
     }
 }
+
+@media screen and (max-width: 750px) and (min-width: 481px) {
+    body.adaptive .footer .line1 .block.one {
+        width:100%;
+        max-width:100%;
+        text-align: center;
+    }
+}
