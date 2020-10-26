@@ -159,3 +159,10 @@
         word-break: normal;
     }
 }
+
+@media screen and (max-width: 480px) {
+    body.adaptive .footer .line1 .block.one .phone span {
+        word-break: normal;
+        white-space: nowrap;
+    }
+}
