@@ -33,7 +33,7 @@ if( isset($arResult['ITEMS']) )
 				// PRICE
 				if( isset($arItem['MIN_PRICE']) )
 				{
-					?><div class="prices"><?=GetMessage('CT_BCE_CATALOG_PRICE')?> <?=$PRODUCT['MIN_PRICE']['PRINT_DISCOUNT_VALUE']?></div><?
+					?><div class="prices"><?=GetMessage('CT_BCE_CATALOG_PRICE')?> <?=roundEx(CCurrencyRates::ConvertCurrency($PRODUCT['MIN_PRICE']['VALUE'], $PRODUCT['MIN_PRICE']['CURRENCY'], 'RUB')) . ' руб.'?></div><?
 				}
 				// ADD2BASKET
 				?><noindex><div class="buy clearfix"><?
